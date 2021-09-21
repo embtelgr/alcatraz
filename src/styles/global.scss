@@ -1,0 +1,464 @@
+@charset "utf-8";
+
+// COLORS
+// $theme-colors: (
+//   "primary": #0074d9,
+//   "secondary": #6c757d,
+//   "success": #28a745,
+//   "danger": #ff4136,
+//   "warning": #ffc107,
+//   "info": #17a2b8,
+//   "light": #f8f9fa,
+//   "dark": #343a40,
+//   "white": #ffffff,
+//   "transparent": transparent,
+// );
+
+// TEXT
+// $font-family-sans-serif: "Helvetica Neue", Helvetica, Arial, sans-serif;
+// $font-family-serif: Georgia, "Times New Roman", Times, serif;
+// $font-family-base: $font-family-sans-serif;
+// $font-size-base: 1rem;
+
+// BREAKPOINTS
+// $grid-breakpoints: (
+//   xs: 0,
+//   sm: 576px,
+//   md: 768px,
+//   lg: 992px,
+//   xl: 1200px,
+// );
+
+// SEE DOCS FOR MORE:
+// https://bit.ly/2sgFMdb
+
+// IMPORT BOOTSTRAP
+// @import "~bootstrap/scss/bootstrap";
+
+// IMPORT FONT AWESOME
+// @import url("https://use.fontawesome.com/releases/v5.10.1/css/all.css");
+
+// #root {
+//   // Full height of screen and flex so that we can push footer
+//   // to the bottom even if content is shorter than screen
+//   min-height: 100vh;
+//   display: flex;
+//   flex-direction: column;
+//   // Push footer to the bottom of the screen
+//   > .footer {
+//     margin-top: auto;
+//   }
+//   // Prevent child elements from shrinking when content
+//   // is taller than the screen (quirk of having flex parent)
+//   > * {
+//     flex-shrink: 0;
+//   }
+// }
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+@import '../styles/traveltour-style-custom.css';
+@import '../styles/tourmaster-style-custom.css';
+@import './plugins/tourmaster/tourmaster.css';
+@import '../styles/style-core.css';
+// @import './plugins/revslider/public/assets/css/settings.css';
+@import './plugins/tourmaster/plugins/elegant-font/style.css';
+
+@import './plugins/goodlayers-core/plugins/combine/style.css';
+@import './plugins/goodlayers-core/include/css/page-builder.css';
+
+.main_slider{
+  background-image: url('../upload/newmainbg.jpg');
+}
+.popular_tours{
+  background-image: url('../upload/title-bg-popular-3.jpg');
+}
+.cta_background{
+  background-image: url('../upload/cta_image.jpg');
+}
+
+.video_bg{
+  background-image: url('../upload/alcatraz_bg_vid.jpg');
+}
+.reviews_bg{
+  background-image: url('../upload/title-bg-testimonial-2.jpg');
+}
+
+.contact_page_bg, .about_page_bg{
+  // background-image: url('../upload/section-bg-4.jpg');
+  background-image: url('../upload/alcatraz_bg_vid.jpg');
+}
+
+.about_cta_bg{
+  background-image: url('../upload/about_cta.jpg') !important;
+}
+
+.single_tour_header_1{
+  background-image: url('../upload/bus_tour.jpg');
+}
+.single_tour_header_3{
+  background-image: url('../upload/bay_cruise.jpg');
+}
+.single_tour_header_4{
+  background-image: url('../upload/bike_tour.jpg');
+}
+.single_tour_header_5{
+  background-image: url('../upload/muirwoodsbig.jpg');
+}
+
+.sidebar_bg{
+  background-image: url('../upload/sidebar_bg.jpg');
+}
+.default_button{
+  background-color: #006699;
+  padding: 15px 30px;
+  font-size:20px;
+  color: #fff !important;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bold;
+  transition: 0.5s;
+  border-radius: 5px;
+}
+
+.text-center{
+  text-align: center;
+}
+.text-right{
+  text-align: right;
+}
+.mt-5{
+  margin-top:30px;
+}
+
+.gdlr-core-testimonial-item .gdlr-core-testimonial-frame {
+  background-color: #006699 !important;
+  margin: 0px 10px;
+}
+
+#traveltour-main-menu{
+  @media(min-width:767px){
+    display: flex;
+    align-items: center;
+  }
+  .default_button {
+    background-color: #006699;
+    // padding: 25px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff !important;
+    margin-bottom: 5px;
+  }
+}
+
+.tourmaster-tour-price{
+  color: #fff !important;
+}
+
+.tourmaster-tour-style-1 .tourmaster-header-price .tourmaster-header-price-ribbon{
+  background: #2089c1;
+  font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.tourmaster-header-price .tourmaster-tour-price .tourmaster-head{
+  font-size: 18px;
+}
+.tourmaster-header-price .tourmaster-tour-price .tourmaster-tail{
+  font-size: 20px !important;
+}
+.tourmaster-header-price .tourmaster-tour-price-info{
+  color: #fff;
+}
+
+@-webkit-keyframes breathing {
+  0% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+  25% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  60% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+  100% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+
+@keyframes breathing {
+  0% {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+  25% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+
+  60% {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+  100% {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+
+.sticky_cta_button{
+  position: fixed;
+  left: 20px;
+  bottom: 40px;
+  animation: breathing 1s ease-out infinite normal;
+  z-index: 2;
+  a{
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+  }
+}
+.sticky_cta_button:hover{
+  animation: none;
+}
+
+
+.default_button:hover{
+  background-color: #232323 !important;
+}
+
+.traveltour-copyright-left, .traveltour-copyright-right{
+  letter-spacing: 0px;
+}
+
+.form-select{
+  width: 100%;
+    padding: 15px 15px;
+    border-color: #fff !important;
+    background: white;
+    margin-top: 10px;
+}
+
+.d-flex{
+  @media(min-width:767px){
+    display: flex;
+  }
+}
+.mr-10{
+  @media(min-width:767px){
+    margin-right: 10px;
+  }
+}
+
+.ml-10{
+  @media(min-width:767px){
+    margin-left: 10px;
+  }
+}
+
+.book_tickets_form{
+  padding:30px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.05);
+  background: #f3f3f3;
+  border-radius: 10px;
+}
+
+#traveltour-mobile-menu{
+  z-index: 9;
+}
+
+.single-tour .tourmaster-with-sidebar .gdlr-core-container{
+  @media(max-width:767px){
+    padding-right: 0px;
+  }
+}
+
+.traveltour-top-bar{
+  background:#232323;
+  .topbar_text{
+    color:#fff;
+    margin-bottom: 0px;
+    a{
+      color: #48dbfb;
+      margin-left: 5px;
+      border-bottom: 1px solid;
+    }
+  }
+}
+
+.alert {
+  position: relative;
+  padding: .75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+}
+.alert-success {
+  color: #155724;
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+}
+.alert-danger {
+  color: #721c24;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+}
+
+.quform-submit{
+  .sr-only{
+    position: inherit;
+  }
+  .btn{
+    border: none;
+  }
+}
+
+
+.about_ticket{
+  @media(min-width:767px){
+    padding-left: 30px;
+  }
+}
+.mb-5{
+  margin-bottom: 20px;
+}
+.mobile_layout_tours{
+  @media(max-width: 767px){
+    .gdlr-core-item-list{
+      padding: 0px;
+    }
+    .tourmaster-thumbnail-ribbon{
+      top: 9px;
+      font-size: 12px;
+      padding: 8px 12px;
+      left: -7px;
+    }
+    .tourmaster-tour-grid{
+      display: flex;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 25px;
+      .tourmaster-tour-thumbnail{
+        max-width: 50%;
+        img{
+          border-radius: 10px;
+        }
+      }
+      .tourmaster-tour-content-wrap{
+        .tourmaster-tour-title{
+          padding-right: 0px;
+          padding-left: 20px;
+          font-size: 16px;
+        }
+        .tourmaster-tour-price-wrap{
+          position: inherit;
+          text-align: left;
+          padding-left: 20px;
+        }
+        .tourmaster-tour-info-wrap{
+          padding-left: 20px;
+        }
+        .tourmaster-tour-rating{
+          padding-left: 20px;
+        }
+      }
+    }
+
+  }
+}
+.why_alcatraz_section{
+  p{
+    font-size: 16px;
+  }
+}
+.info_banner{
+  color: #004085;
+  background-color: #cce5ff;
+  border-color: #b8daff;
+  padding: .75rem 1.25rem;
+  border-radius: 5px;
+  p{
+    font-size: 14px;
+    margin-bottom: 0px;
+  }
+}
+
+.tourmaster-tour-price{
+  .tourmaster-head{
+    color: #232323;
+  }
+}
+
+#tourmaster-tour-booking-bar-wrap{
+  .tourmaster-head{
+    color: #fff;
+  }
+}
+
+.footer_note{
+  color: #fff;
+    background-color: #0b669961;
+    border-color: #c6c8ca;
+    padding: 30px;
+    border-radius: 10px;
+    h6{
+      color: #42d8fb;
+    }
+}
+
+.mb-0{
+  margin-bottom: 0px !important;
+}
+
+.gdlr-core-image-overlay {
+  background-color: rgba(11, 102, 153, 0.5);
+}
+.contact_ribbon{
+  padding: 15px 30px;
+    background: #0b66993d;
+    color: #0b6699;
+    font-size: 16px;
+    border-left: 5px solid;
+}
+
+.ReactGridGallery_tile-viewport img {
+  width: 250px;
+  height: 200px;
+  object-fit: cover;
+}
+@media(min-width:767px){
+  .d-flex{
+    display: flex;
+  }
+}
+.align-items-center{
+  align-items: center;
+}
+.justify-content-between{
+  justify-content: space-between;
+}
+
+@media(max-width:1024px){
+  .why_alcatraz_section{
+    .gdlr-core-column-30{
+      width: 100%;
+      text-align: center;
+    }
+  }
+  .tourmaster-tour-title{
+    font-size: 17px !important;
+  }
+}
+
+.traveltour-footer-wrapper a:hover{
+  color: #41d8fb;
+}
