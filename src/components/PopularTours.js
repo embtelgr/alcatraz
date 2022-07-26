@@ -29,7 +29,7 @@ function PopularTours(props) {
                                                     <Link to="/tour/open-bus-city-tour-1"><img src={require('../upload/bustour1.jpg').default} alt="" width="700" height="500" /></Link>
                                                 </div>
                                                 <div className="tourmaster-tour-content-wrap gdlr-core-skin-e-background">
-                                                    <h3 className="tourmaster-tour-title gdlr-core-skin-title" id="h3_6480_0"><Link to="/tour/open-bus-city-tour-1">Alcatraz and An Open Top Bus City Tour</Link></h3>                                                    <div className="tourmaster-tour-price-wrap "><span className="tourmaster-tour-price"><span className="tourmaster-head">From</span><span className="tourmaster-tail">$130</span></span>
+                                                    <h3 className="tourmaster-tour-title gdlr-core-skin-title" id="h3_6480_0"><Link to="/tour/open-bus-city-tour-1">Alcatraz and An Open Top Bus City Tour</Link></h3>                                                    <div className="tourmaster-tour-price-wrap "><span className="tourmaster-tour-price"><span className="tourmaster-head">From</span><span className="tourmaster-tail">$140</span></span>
                                                     </div>
                                                     <div className="tourmaster-tour-info-wrap clearfix">
                                                         {/* <div className="tourmaster-tour-info tourmaster-tour-info-duration-text "><i className="icon_clock_alt"></i>1 day</div> */}
@@ -63,7 +63,7 @@ function PopularTours(props) {
                                                 </div>
                                                 <div className="tourmaster-tour-content-wrap gdlr-core-skin-e-background">
                                                     <h3 className="tourmaster-tour-title gdlr-core-skin-title" id="h3_6480_2"><Link to="/tour/one-hour-bay-cruise">Alcatraz and 1 Hour Bay Cruise</Link></h3>
-                                                    <div className="tourmaster-tour-price-wrap tourmaster-discount"><span className="tourmaster-tour-price"><span className="tourmaster-head">From</span><span className="tourmaster-tail">$120</span></span><span className="tourmaster-tour-discount-price">$110</span></div>
+                                                    <div className="tourmaster-tour-price-wrap tourmaster-discount"><span className="tourmaster-tour-price"><span className="tourmaster-head">From</span><span className="tourmaster-tail">$150</span></span><span className="tourmaster-tour-discount-price">$120</span></div>
                                                     <div className="tourmaster-tour-info-wrap clearfix">
                                                         {/* <div className="tourmaster-tour-info tourmaster-tour-info-duration-text "><i className="icon_clock_alt"></i>1 Day</div> */}
                                                     </div>
@@ -80,7 +80,7 @@ function PopularTours(props) {
                                                 </div>
                                                 <div className="tourmaster-tour-content-wrap gdlr-core-skin-e-background">
                                                     <h3 className="tourmaster-tour-title gdlr-core-skin-title" id="h3_6480_3"><Link to="/tour/all-day-bike-tour">Alcatraz and All Day Bike Tour</Link></h3>
-                                                    <div className="tourmaster-tour-price-wrap tourmaster-discount"><span className="tourmaster-tour-price"><span className="tourmaster-head">From</span><span className="tourmaster-tail">$130</span></span><span className="tourmaster-tour-discount-price">$115</span></div>
+                                                    <div className="tourmaster-tour-price-wrap tourmaster-discount"><span className="tourmaster-tour-price"><span className="tourmaster-head">From</span><span className="tourmaster-tail">$165</span></span><span className="tourmaster-tour-discount-price">$125</span></div>
                                                     <div className="tourmaster-tour-info-wrap clearfix">
                                                         {/* <div className="tourmaster-tour-info tourmaster-tour-info-duration-text "><i className="icon_clock_alt"></i>1 Day</div> */}
                                                     </div>
@@ -97,7 +97,7 @@ function PopularTours(props) {
                                                 </div>
                                                 <div className="tourmaster-tour-content-wrap gdlr-core-skin-e-background">
                                                     <h3 className="tourmaster-tour-title gdlr-core-skin-title" id="h3_6480_3"><Link to="/tour/muir-woods">Alcatraz and Muir Woods National Park and Sausolito</Link></h3>
-                                                    <div className="tourmaster-tour-price-wrap tourmaster-discount"><span className="tourmaster-tour-price"><span className="tourmaster-head">From</span><span className="tourmaster-tail">$180</span></span><span className="tourmaster-tour-discount-price">$150</span></div>
+                                                    <div className="tourmaster-tour-price-wrap tourmaster-discount"><span className="tourmaster-tour-price"><span className="tourmaster-head">From</span><span className="tourmaster-tail">$179</span></span><span className="tourmaster-tour-discount-price">$160</span></div>
                                                     <div className="tourmaster-tour-info-wrap clearfix">
                                                         {/* <div className="tourmaster-tour-info tourmaster-tour-info-duration-text "><i className="icon_clock_alt"></i>1 Day</div> */}
                                                     </div>
