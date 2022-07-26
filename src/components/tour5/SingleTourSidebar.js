@@ -12,7 +12,7 @@ function SingleTourSidebar(props) {
                             <div className="tourmaster-header-price-ribbon">10% Off</div>
                             <div className="tourmaster-header-price-wrap">
                                 <div className="tourmaster-header-price-overlay"></div>
-                                <div className="tourmaster-tour-price-wrap tourmaster-discount"><span className="tourmaster-tour-price"><span className="tourmaster-head">From</span><span className="tourmaster-tail">$180</span></span><span className="tourmaster-tour-discount-price">$150</span><span className="fa fa-info-circle tourmaster-tour-price-info" data-rel="tipsy" title="The initial price based on 1 adult with the lowest price in low season"></span></div>
+                                <div className="tourmaster-tour-price-wrap tourmaster-discount"><span className="tourmaster-tour-price"><span className="tourmaster-head">From</span><span className="tourmaster-tail">$179</span></span><span className="tourmaster-tour-discount-price">$160</span><span className="fa fa-info-circle tourmaster-tour-price-info" data-rel="tipsy" title="The initial price based on 1 adult with the lowest price in low season"></span></div>
                             </div>
                         </div>
                         <div className="tourmaster-tour-booking-bar-inner">
